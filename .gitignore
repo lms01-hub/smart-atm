@@ -1,0 +1,43 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Logs
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Legacy archive
+legacy-app.tar.gz
+
+# Flutter and Dart generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android generated files and local signing configuration
+/android/.gradle/
+/android/**/build/
+/android/local.properties
+/android/key.properties
+*.jks
+*.keystore
+captures/
+.externalNativeBuild/
+.cxx/
